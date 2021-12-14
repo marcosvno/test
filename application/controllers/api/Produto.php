@@ -44,11 +44,11 @@ class Produto extends RestController{
     }
 
     public function index_put($id){
-		$produto = $this->input->post("produto");
-        $preco = $this->input->post("preco");
-        $qtd = $this->input->post("qtd");
-        $codfabricante = $this->input->post("codfabricante");
-        $codgrupo = $this->input->post("codgrupo");
+	$produto = $this->put("produto");
+        $preco = $this->put("preco");
+        $qtd = $this->put("qtd");
+        $codfabricante = $this->put("codfabricante");
+        $codgrupo = $this->put("codgrupo");
 
         $produto = $this->put("produto");
         $this->ProdutoModel->atualizar($id, $produto, $preco, $qtd, $codfabricante, $codgrupo);
