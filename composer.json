@@ -1,24 +1,24 @@
 {
-	"descrição" : " A estrutura do CodeIgniter " ,
-	"nome" : " codeigniter / framework " ,
-	"tipo" : " projeto " ,
-	"homepage" : " https://codeigniter.com " ,
-	"licença" : " MIT " ,
-	"suporte" : {
-		"fórum" : " http://forum.codeigniter.com/ " ,
-		"wiki" : " https://github.com/bcit-ci/CodeIgniter/wiki " ,
-		"folga" : " https://codeigniterchat.slack.com " ,
-		"source" : " https://github.com/bcit-ci/CodeIgniter "
+	"description": "The CodeIgniter framework",
+	"name": "codeigniter/framework",
+	"type": "project",
+	"homepage": "https://codeigniter.com",
+	"license": "MIT",
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+		"slack": "https://codeigniterchat.slack.com",
+		"source": "https://github.com/bcit-ci/CodeIgniter"
 	},
-	"requer" : {
-		"php" : " 7.4.26 " ,
-		"ext-ftp" : " * "
+	"require": {
+		"php": "7.4.26",
+		"ext-ftp": "*"
 	},
-	"sugerir" : {
-		"paragonie / random_compat" : " Oferece melhor aleatoriedade no PHP 5.x "
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
 	},
-	"require-dev" : {
-		"mikey179 / vfsstream" : " 1.1. * " ,
-		"phpunit / phpunit" : " 4. * || 5. * "
+	"require-dev": {
+		"mikey179/vfsstream": "1.1.*",
+		"phpunit/phpunit": "4.* || 5.*"
 	}
 }
